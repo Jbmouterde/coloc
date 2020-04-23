@@ -107,10 +107,10 @@ function drawNumber(n, x, y, ralign) {
 }
 
 var heroImage = new Image();
-heroImage.src = "./images/jb2.png";
+heroImage.src = "./images/got.png";
 
 var ennemyImage = new Image();
-ennemyImage.src = "./images/got.png";
+ennemyImage.src = "./images/jb2.png";
 
 var argent = new Image();
 argent.src = "./images/image.png";
