@@ -10,19 +10,50 @@ body {
     background-image: url("./images/sv.jpg");
     background-repeat: no-repeat;
     background-size:cover ;
-    color : white
 }
 .t{
     text-decoration-style: double;
     font-size: 25px;
-    margin : 0;
+    /* margin : auto; */
     padding-top : 15px;
     text-shadow: 1000px;
-    color : black;
-    text-shadow: black;
-    background-color: white;
-    /* background-color : whitesmoke */
+    width: 700px; 
+    text-align : center;
 
+    color : white;
+    text-shadow: black;
+
+    /* background-color : whitesmoke */
+    border-radius : 50%; 
+    width: 700px; 
+    margin : 40px auto; 
+    background-color: rgba(0,0,0,0.2); 
+    border : 1px solid white; 
+	padding-bottom : 5px ;
+    
+}
+
+.box {
+    align-self: flex-end;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    background: linear-gradient(#9198e5, #e66465);
+    /* border-radius: 50%;  */
+    margin: 0 auto 0 auto;
+    transform-origin: left;
+    text-align: center; 
+    color: white
+}
+
+.bounce-1 {
+    animation-name: bounce-1;
+    animation-timing-function: linear;
+}
+@keyframes bounce-1 {
+    0%   { transform: translateX(+200px); }
+    50%  { transform: translateX(-200px); }
+    100% { transform: translateX(+200px);
+ }
 }
 .gameCanvas {
     display: block;
