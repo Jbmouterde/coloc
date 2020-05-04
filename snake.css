@@ -38,3 +38,21 @@
 	position:relative;
 	top:1px;
 }
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+  body {
+    background-image: url("./images/sv.jpg");
+    background-repeat: no-repeat;
+    background-size:cover ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  canvas {
+    border: 1px solid white;
+  }

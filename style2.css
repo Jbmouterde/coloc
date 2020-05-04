@@ -4,7 +4,26 @@ text-align: center;
 margin-top: 100px;
 
 }
+.hi{
+    background: linear-gradient(#e66465, #9198e5);
+    margin: 40px auto;
+    width: 600px;
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+}
 
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%; 
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
 body {
     background-image: url("./images/sv.jpg");
     margin : 40px auto; 
