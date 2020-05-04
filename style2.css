@@ -54,7 +54,7 @@ body {
 
 .projects:hover .hoverition{
     visibility: visible;
-    color : black ; 
+    color : white ; 
     font-family: 'Work Sans', sans-serif;
     margin-top : 10px; 
     display : table-cell; 
