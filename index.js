@@ -1,12 +1,4 @@
-// OPTIMIZED CODE - Now it's a stand alone pluggin !
-// Olivier MAISON
-// Removal all global vars
-// Removal document.write method
-// Add Functions
-// Add random snow size
-// Add On Resize Method
-// Add Media queries
-// Cleaned code
+
 
 const snowInit = function () {
 
