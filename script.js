@@ -181,7 +181,7 @@ ai = {
 	 * Draw the ai paddle to the canvas
 	 */
 	draw: function() {
-        ctx.drawImage(ennemyImage, this.x , this.y += 2 , this.width, this.height);
+        ctx.drawImage(ennemyImage, this.x , this.y += 4 , this.width, this.height);
 	}
 },
 /**	
